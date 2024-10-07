@@ -12,7 +12,7 @@ Can write on two lines
 */
 void exercise_1()
 {
-    std::cout<<"My first program"<<'\n'<<"can write on two lines"<<std::endl;
+    std::cout<<"My first C-program"<<'\n'<<"Can write on two lines"<<std::endl;
 }
 
 /*
@@ -26,7 +26,7 @@ Area of the triangle: 10.000000
 */
 void exercise_2(double base, double height)
 {
-    int a  = (base*height)/2;
+    float a  = (base*height)/2;
     std::cout<<"Area of the triangle: "<<std::fixed<<::std::setprecision(6)<<a<<std::endl;
 }
 
